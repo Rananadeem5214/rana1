@@ -52,7 +52,7 @@ def azim():
 
 
 def banner():
-    os.system('echo -e "\n\n    \  \n   " | lolcat ')
+    os.system('echo -e "\n\n    \Rana  \n   " | lolcat ')
 
 
 def tik():
@@ -85,7 +85,7 @@ def masuk():
 
 
 def pilih_masuk():
-    msuk = raw_input('\x1b[1;92mAzim/\x1b[91m>\x1b[1;92m ')
+    msuk = raw_input('\x1b[1;92mRana/\x1b[91m>\x1b[1;92m ')
     if msuk == '':
         print '\x1b[1;97m[\x1b[1;91m!\x1b[1;97m] Fill Correctly !'
         pilih_masuk()
@@ -220,7 +220,7 @@ def menu():
 def pilih_menu():
     global cekpoint
     global oks
-    peak = raw_input('\x1b[1;97mAzim/\x1b[1;91m> \x1b[1;97m')
+    peak = raw_input('\x1b[1;97mRana/\x1b[1;91m> \x1b[1;97m')
     if peak == '':
         print '\x1b[1;96m[!] \x1b[1;91mFill Correctly'
         pilih_menu()
